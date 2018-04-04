@@ -1,1 +1,2 @@
+[![Build Status](https://travis-ci.org/Asetss/react_ci.svg?branch=master)](https://travis-ci.org/Asetss/react_ci)
 [![Coverage Status](https://coveralls.io/repos/github/Asetss/react_ci/badge.svg?branch=master)](https://coveralls.io/github/Asetss/react_ci?branch=master)
