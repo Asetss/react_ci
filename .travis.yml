@@ -7,3 +7,9 @@ node_js:
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku
+  app: "reactci"
+  api_key:
+    secure: "85012545-a9f6-4ee1-9452-573c40c48cde"
