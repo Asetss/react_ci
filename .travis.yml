@@ -13,3 +13,7 @@ deploy:
   app: "reactci"
   api_key:
     secure: "85012545-a9f6-4ee1-9452-573c40c48cde"
+
+after_success:
+  - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
